@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useTasks } from '../context/TaskContext';
 import {
     View,
     Text,
@@ -7,15 +6,21 @@ import {
     TouchableOpacity,
     StyleSheet,
 } from 'react-native';
+import DateTimePicker from '@react-native-community/datetimepicker';
+import { useTasks } from '../context/TaskContext';
 import { Priority, Task } from '../models/Task';
 
 const AddTaskScreen = ({ navigation }: any) => {
+    const { addTask } = useTasks();
+
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [priority, setPriority] = useState<Priority>('MEDIUM');
 
-    // ✅ get addTask from context
-    const { addTask } = useTasks();
+    // ✅ deadline states
+    const [deadline, setDeadline] = useState<Date>(new Date());
+    const [showDatePicker, setShowDatePicker] = useState(false);
+    const [showTimePicker, setShowTimePicker] = useState(false);
 
     const handleAddTask = () => {
         if (!title.trim()) return;
@@ -25,15 +30,12 @@ const AddTaskScreen = ({ navigation }: any) => {
             title,
             description,
             createdAt: Date.now(),
-            deadline: Date.now(), // will improve later
+            deadline: deadline.getTime(), // ✅ correct deadline
             priority,
             completed: false,
         };
 
-        // ✅ STORE task globally
         addTask(newTask);
-
-        // ✅ go back to task list
         navigation.navigate('TaskList');
     };
 
@@ -58,6 +60,61 @@ const AddTaskScreen = ({ navigation }: any) => {
                 multiline
             />
 
+            {/* ✅ DEADLINE PICKER */}
+            <Text style={styles.label}>Deadline</Text>
+
+            <TouchableOpacity
+                style={styles.deadlineButton}
+                onPress={() => setShowDatePicker(true)}
+            >
+                <Text style={styles.deadlineText}>
+                    {deadline.toLocaleString()}
+                </Text>
+            </TouchableOpacity>
+
+            {/* DATE PICKER */}
+            {showDatePicker && (
+                <DateTimePicker
+                    value={deadline}
+                    mode="date"
+                    display="default"
+                    onChange={(event, selectedDate) => {
+                        setShowDatePicker(false);
+                        if (selectedDate) {
+                            const newDate = new Date(deadline);
+                            newDate.setFullYear(
+                                selectedDate.getFullYear(),
+                                selectedDate.getMonth(),
+                                selectedDate.getDate()
+                            );
+                            setDeadline(newDate);
+                            setShowTimePicker(true); // 🔥 open time picker next
+                        }
+                    }}
+                />
+            )}
+
+            {/* TIME PICKER */}
+            {showTimePicker && (
+                <DateTimePicker
+                    value={deadline}
+                    mode="time"
+                    display="default"
+                    onChange={(event, selectedTime) => {
+                        setShowTimePicker(false);
+                        if (selectedTime) {
+                            const newDate = new Date(deadline);
+                            newDate.setHours(
+                                selectedTime.getHours(),
+                                selectedTime.getMinutes()
+                            );
+                            setDeadline(newDate);
+                        }
+                    }}
+                />
+            )}
+
+            {/* PRIORITY */}
             <Text style={styles.label}>Priority</Text>
 
             <View style={styles.priorityRow}>
@@ -111,6 +168,17 @@ const styles = StyleSheet.create({
         color: '#CBD5E1',
         marginVertical: 10,
     },
+
+    deadlineButton: {
+        backgroundColor: '#1E293B',
+        padding: 14,
+        borderRadius: 8,
+        marginBottom: 16,
+    },
+    deadlineText: {
+        color: '#F8FAFC',
+    },
+
     priorityRow: {
         flexDirection: 'row',
         justifyContent: 'space-between',

@@ -5,6 +5,8 @@
  * @format
  */
 
+const exclusionList = require('metro-config/src/defaults/exclusionList');
+
 module.exports = {
   transformer: {
     getTransformOptions: async () => ({
@@ -13,5 +15,11 @@ module.exports = {
         inlineRequires: true,
       },
     }),
+  },
+  resolver: {
+    blacklistRE: exclusionList([
+      /android\/.*/,
+      /ios\/.*/,
+    ]),
   },
 };
