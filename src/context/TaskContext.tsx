@@ -15,7 +15,7 @@ export const TaskProvider: React.FC<{ children: React.ReactNode }> = ({
 }) => {
     const [tasks, setTasks] = useState<Task[]>([]);
 
-    // ✅ MIXED SORTING ALGORITHM
+    //  MIXED SORTING ALGORITHM
     const sortTasks = (taskList: Task[]) => {
         const priorityWeight: Record<string, number> = {
             HIGH: 3,
@@ -24,21 +24,21 @@ export const TaskProvider: React.FC<{ children: React.ReactNode }> = ({
         };
 
         return [...taskList].sort((a, b) => {
-            // 1️⃣ Incomplete tasks first
+            //  Incomplete tasks first
             if (a.completed !== b.completed) {
                 return a.completed ? 1 : -1;
             }
 
-            // 2️⃣ Higher priority first
+            //  Higher priority first
             const priorityDiff =
                 priorityWeight[b.priority] - priorityWeight[a.priority];
             if (priorityDiff !== 0) return priorityDiff;
 
-            // 3️⃣ Earlier deadline first
+            //  Earlier deadline first
             const deadlineDiff = a.deadline - b.deadline;
             if (deadlineDiff !== 0) return deadlineDiff;
 
-            // 4️⃣ Earlier created time first
+            //  Earlier created time first
             return a.createdAt - b.createdAt;
         });
     };
