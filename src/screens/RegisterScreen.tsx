@@ -20,10 +20,22 @@ const RegisterScreen = ({ navigation }: any) => {
     }
 
     try {
+      // 1. Create the user
       await auth().createUserWithEmailAndPassword(email, password);
-      Alert.alert('Success', 'Account created successfully');
-      navigation.navigate('Login');
 
+      // 2. Immediately sign out to prevent auto-login to TaskList
+      await auth().signOut();
+
+      Alert.alert(
+        'Success',
+        'Account created successfully! Please login with your new credentials.',
+        [
+          {
+            text: 'OK',
+            onPress: () => navigation.navigate('Login'),
+          },
+        ]
+      );
     } catch (error: any) {
       Alert.alert('Registration Failed', error.message);
     }

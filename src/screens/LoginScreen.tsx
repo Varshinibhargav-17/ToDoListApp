@@ -21,8 +21,7 @@ const LoginScreen = ({ navigation }: any) => {
 
     try {
       await auth().signInWithEmailAndPassword(email, password);
-      Alert.alert('Success', 'Logged in successfully');
-      // Later → redirect to Todo screen
+      // Success! AuthContext re-renders and shows TaskList automatically.
     } catch (error: any) {
       Alert.alert(
         'Login Failed',
