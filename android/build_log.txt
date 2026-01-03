@@ -1,0 +1,1303 @@
+﻿Initialized native services in: C:\Users\varshini bhargav\.gradle\native
+Initialized jansi services in: C:\Users\varshini bhargav\.gradle\native
+Found daemon DaemonInfo{pid=2516, address=[a1829fa4-b8d4-4264-9394-fc54fc35891c port:52527, addresses:[/127.0.0.1]], state=Idle, lastBusy=1767436903998, context=DefaultDaemonContext[uid=0343e061-8127-4627-aded-bc8f007a2f20,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=C:\Users\varshini bhargav\.gradle\daemon,pid=2516,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=512m,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=utf8,-Duser.country=IN,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+At least one daemon option is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=C:\Users\varshini bhargav\.gradle\daemon,pid=27144,idleTimeout=null,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=512m,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=0343e061-8127-4627-aded-bc8f007a2f20,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=C:\Users\varshini bhargav\.gradle\daemon,pid=2516,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=512m,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=utf8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 14580). The daemon log file: C:\Users\varshini bhargav\.gradle\daemon\7.5.1\daemon-14580.out.log
+Starting 4th build in daemon [uptime: 3 mins 21.307 secs, performance: 100%, non-heap usage: 29% of 512 MiB]
+Using 12 worker leases.
+Now considering [C:\TO_DO_LIST_APP\TodoListApp\android, C:\TO_DO_LIST_APP\TodoListApp\node_modules\react-native-gradle-plugin] as hierarchies to watch
+Watching 2 directory hierarchies to track changes
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+:ReactNative:Automatically adding native module 'react-native-safe-area-context'
+:ReactNative:Automatically adding native module 'react-native-screens'
+Settings evaluated using settings file 'C:\TO_DO_LIST_APP\TodoListApp\android\settings.gradle'.
+Now considering [C:\TO_DO_LIST_APP\TodoListApp\node_modules\react-native-gradle-plugin, C:\TO_DO_LIST_APP\TodoListApp\android] as hierarchies to watch
+Watching 2 directory hierarchies to track changes
+Projects loaded. Root project using build file 'C:\TO_DO_LIST_APP\TodoListApp\android\build.gradle'.
+Included projects: [root project 'HelloWorld', project ':app', project ':react-native-safe-area-context', project ':react-native-screens']
+
+> Configure project :react-native-gradle-plugin
+Evaluating project ':react-native-gradle-plugin' using build file 'C:\TO_DO_LIST_APP\TodoListApp\node_modules\react-native-gradle-plugin\build.gradle.kts'.
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Caching disabled for Kotlin DSL accessors for project ':react-native-gradle-plugin' because:
+  Build cache is disabled
+Skipping Kotlin DSL accessors for project ':react-native-gradle-plugin' as it is up-to-date.
+Registering project ':react-native-gradle-plugin' in composite build. Will substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+Resolve mutations for :react-native-gradle-plugin:compileKotlin (Thread[Execution worker,5,main]) started.
+Resolve mutations for :react-native-gradle-plugin:compileKotlin (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+:react-native-gradle-plugin:compileKotlin (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :react-native-gradle-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':react-native-gradle-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':react-native-gradle-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :react-native-gradle-plugin:compileJava (Thread[Execution worker Thread 10,5,main]) started.
+Resolve mutations for :react-native-gradle-plugin:compileJava (Thread[Execution worker Thread 10,5,main]) completed. Took 0.0 secs.
+:react-native-gradle-plugin:compileJava (Thread[Execution worker Thread 10,5,main]) started.
+:react-native-gradle-plugin:compileKotlin (Thread[Execution worker Thread 6,5,main]) completed. Took 0.029 secs.
+
+> Task :react-native-gradle-plugin:compileJava NO-SOURCE
+Skipping task ':react-native-gradle-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :react-native-gradle-plugin:pluginDescriptors (Thread[Execution worker Thread 6,5,main]) started.
+Resolve mutations for :react-native-gradle-plugin:pluginDescriptors (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+:react-native-gradle-plugin:pluginDescriptors (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':react-native-gradle-plugin:pluginDescriptors' because:
+  Build cache is disabled
+Skipping task ':react-native-gradle-plugin:pluginDescriptors' as it is up-to-date.
+:react-native-gradle-plugin:pluginDescriptors (Thread[Execution worker Thread 6,5,main]) completed. Took 0.001 secs.
+Resolve mutations for :react-native-gradle-plugin:processResources (Thread[Execution worker Thread 6,5,main]) started.
+Resolve mutations for :react-native-gradle-plugin:processResources (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+:react-native-gradle-plugin:processResources (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :react-native-gradle-plugin:processResources UP-TO-DATE
+Caching disabled for task ':react-native-gradle-plugin:processResources' because:
+  Build cache is disabled
+Skipping task ':react-native-gradle-plugin:processResources' as it is up-to-date.
+:react-native-gradle-plugin:processResources (Thread[Execution worker Thread 6,5,main]) completed. Took 0.001 secs.
+Resolve mutations for :react-native-gradle-plugin:classes (Thread[Execution worker Thread 6,5,main]) started.
+Resolve mutations for :react-native-gradle-plugin:classes (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+:react-native-gradle-plugin:classes (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :react-native-gradle-plugin:classes UP-TO-DATE
+Skipping task ':react-native-gradle-plugin:classes' as it has no actions.
+:react-native-gradle-plugin:classes (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :react-native-gradle-plugin:inspectClassesForKotlinIC (Thread[Execution worker Thread 6,5,main]) started.
+:react-native-gradle-plugin:compileJava (Thread[Execution worker Thread 10,5,main]) completed. Took 0.001 secs.
+Resolve mutations for :react-native-gradle-plugin:inspectClassesForKotlinIC (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+:react-native-gradle-plugin:inspectClassesForKotlinIC (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :react-native-gradle-plugin:inspectClassesForKotlinIC UP-TO-DATE
+Caching disabled for task ':react-native-gradle-plugin:inspectClassesForKotlinIC' because:
+  Build cache is disabled
+Skipping task ':react-native-gradle-plugin:inspectClassesForKotlinIC' as it is up-to-date.
+:react-native-gradle-plugin:inspectClassesForKotlinIC (Thread[Execution worker Thread 6,5,main]) completed. Took 0.002 secs.
+Resolve mutations for :react-native-gradle-plugin:jar (Thread[Execution worker Thread 6,5,main]) started.
+Resolve mutations for :react-native-gradle-plugin:jar (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+:react-native-gradle-plugin:jar (Thread[Execution worker Thread 6,5,main]) started.
+producer locations for task group 0 (Thread[Execution worker Thread 10,5,main]) started.
+producer locations for task group 0 (Thread[Execution worker Thread 10,5,main]) completed. Took 0.0 secs.
+
+> Task :react-native-gradle-plugin:jar UP-TO-DATE
+Caching disabled for task ':react-native-gradle-plugin:jar' because:
+  Build cache is disabled
+Skipping task ':react-native-gradle-plugin:jar' as it is up-to-date.
+:react-native-gradle-plugin:jar (Thread[Execution worker Thread 6,5,main]) completed. Took 0.002 secs.
+
+> Configure project :
+Evaluating root project 'HelloWorld' using build file 'C:\TO_DO_LIST_APP\TodoListApp\android\build.gradle'.
+Found project 'project :react-native-gradle-plugin' as substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\TO_DO_LIST_APP\TodoListApp\android\app\build.gradle'.
+:ReactNative:Automatically adding native module 'react-native-safe-area-context'
+:ReactNative:Automatically adding native module 'react-native-screens'
+
+> Configure project :react-native-safe-area-context
+Evaluating project ':react-native-safe-area-context' using build file 'C:\TO_DO_LIST_APP\TodoListApp\node_modules\react-native-safe-area-context\android\build.gradle'.
+
+> Configure project :react-native-screens
+Evaluating project ':react-native-screens' using build file 'C:\TO_DO_LIST_APP\TodoListApp\node_modules\react-native-screens\android\build.gradle'.
+Using Kotlin Gradle Plugin gradle75 variant
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [21.4.7075529]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\varshini bhargav\AppData\Local\Android\Sdk
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 34
+
+This Android Gradle plugin (7.3.1) was tested up to compileSdk = 33
+
+This warning can be suppressed by adding
+    android.suppressUnsupportedCompileSdk=34
+to this project's gradle.properties
+
+The build will continue, but you are strongly encouraged to update your project to
+use a newer Android Gradle Plugin that has been tested with compileSdk = 34
+Tasks to be executed: [task ':app:generatePackageList', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':react-native-safe-area-context:preBuild', task ':react-native-safe-area-context:preDebugBuild', task ':react-native-safe-area-context:compileDebugAidl', task ':react-native-screens:preBuild', task ':react-native-screens:preDebugBuild', task ':react-native-screens:compileDebugAidl', task ':app:compileDebugAidl', task ':react-native-safe-area-context:packageDebugRenderscript', task ':react-native-screens:packageDebugRenderscript', task ':app:compileDebugRenderscript', task ':app:generateDebugBuildConfig', task ':app:javaPreCompileDebug', task ':react-native-safe-area-context:writeDebugAarMetadata', task ':react-native-screens:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':app:bundleDebugJsAndAssets', task ':app:generateDebugResValues', task ':react-native-safe-area-context:compileDebugRenderscript', task ':react-native-safe-area-context:generateDebugResValues', task ':react-native-safe-area-context:generateDebugResources', task ':react-native-safe-area-context:packageDebugResources', task ':react-native-screens:compileDebugRenderscript', task ':react-native-screens:generateDebugResValues', task ':react-native-screens:generateDebugResources', task ':react-native-screens:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':react-native-safe-area-context:mergeDebugShaders', task ':react-native-safe-area-context:compileDebugShaders', task ':react-native-safe-area-context:generateDebugAssets', task ':react-native-safe-area-context:packageDebugAssets', task ':react-native-screens:mergeDebugShaders', task ':react-native-screens:compileDebugShaders', task ':react-native-screens:generateDebugAssets', task ':react-native-screens:packageDebugAssets', task ':app:mergeDebugAssets', task ':app:copyDebugBundledJs', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':react-native-safe-area-context:extractDeepLinksDebug', task ':react-native-safe-area-context:processDebugManifest', task ':react-native-screens:extractDeepLinksDebug', task ':react-native-screens:processDebugManifest', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':react-native-safe-area-context:compileDebugLibraryResources', task ':react-native-safe-area-context:parseDebugLocalResources', task ':react-native-safe-area-context:generateDebugRFile', task ':react-native-screens:compileDebugLibraryResources', task ':react-native-screens:parseDebugLocalResources', task ':react-native-screens:generateDebugRFile', task ':app:processDebugResources', task ':react-native-safe-area-context:generateDebugBuildConfig', task ':react-native-safe-area-context:compileDebugKotlin', task ':react-native-safe-area-context:javaPreCompileDebug', task ':react-native-safe-area-context:compileDebugJavaWithJavac', task ':react-native-safe-area-context:bundleLibCompileToJarDebug', task ':react-native-screens:generateDebugBuildConfig', task ':react-native-screens:compileDebugKotlin', task ':react-native-screens:javaPreCompileDebug', task ':react-native-screens:compileDebugJavaWithJavac', task ':react-native-screens:bundleLibCompileToJarDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':app:processDebugJavaRes', task ':react-native-safe-area-context:processDebugJavaRes', task ':react-native-safe-area-context:bundleLibResDebug', task ':react-native-screens:processDebugJavaRes', task ':react-native-screens:bundleLibResDebug', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':react-native-safe-area-context:bundleLibRuntimeToJarDebug', task ':react-native-screens:bundleLibRuntimeToJarDebug', task ':app:mergeLibDexDebug', task ':app:dexBuilderDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':react-native-safe-area-context:mergeDebugJniLibFolders', task ':react-native-safe-area-context:mergeDebugNativeLibs', task ':react-native-safe-area-context:copyDebugJniLibsProjectOnly', task ':react-native-screens:configureCMakeDebug[arm64-v8a]', task ':react-native-screens:buildCMakeDebug[arm64-v8a]', task ':react-native-screens:configureCMakeDebug[armeabi-v7a]', task ':react-native-screens:buildCMakeDebug[armeabi-v7a]', task ':react-native-screens:configureCMakeDebug[x86]', task ':react-native-screens:buildCMakeDebug[x86]', task ':react-native-screens:configureCMakeDebug[x86_64]', task ':react-native-screens:buildCMakeDebug[x86_64]', task ':react-native-screens:externalNativeBuildDebug', task ':react-native-screens:mergeDebugJniLibFolders', task ':react-native-screens:mergeDebugNativeLibs', task ':react-native-screens:copyDebugJniLibsProjectOnly', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':react-native-safe-area-context:stripDebugDebugSymbols', task ':react-native-safe-area-context:copyDebugJniLibsProjectAndLocalJars', task ':react-native-safe-area-context:extractDebugAnnotations', task ':react-native-safe-area-context:extractDeepLinksForAarDebug', task ':react-native-safe-area-context:mergeDebugGeneratedProguardFiles', task ':react-native-safe-area-context:mergeDebugConsumerProguardFiles', task ':react-native-safe-area-context:prepareDebugArtProfile', task ':react-native-safe-area-context:prepareLintJarForPublish', task ':react-native-safe-area-context:mergeDebugJavaResource', task ':react-native-safe-area-context:syncDebugLibJars', task ':react-native-safe-area-context:bundleDebugAar', task ':react-native-safe-area-context:assembleDebug', task ':react-native-screens:stripDebugDebugSymbols', task ':react-native-screens:copyDebugJniLibsProjectAndLocalJars', task ':react-native-screens:extractDebugAnnotations', task ':react-native-screens:extractDeepLinksForAarDebug', task ':react-native-screens:mergeDebugGeneratedProguardFiles', task ':react-native-screens:mergeDebugConsumerProguardFiles', task ':react-native-screens:prepareDebugArtProfile', task ':react-native-screens:prepareLintJarForPublish', task ':react-native-screens:mergeDebugJavaResource', task ':react-native-screens:syncDebugLibJars', task ':react-native-screens:bundleDebugAar', task ':react-native-screens:assembleDebug']
+Tasks that were excluded: []
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+Transforming jsr305-3.0.2.jar (com.google.code.findbugs:jsr305:3.0.2) with JetifyTransform
+Transforming swiperefreshlayout-1.1.0.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.1.0) with JetifyTransform
+Transforming jsr305-3.0.2.jar (com.google.code.findbugs:jsr305:3.0.2) with IdentityTransform
+Transforming swiperefreshlayout-1.1.0.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.1.0) with AarToClassTransform
+Transforming javax.inject-1.jar (javax.inject:javax.inject:1) with JetifyTransform
+Transforming javax.inject-1.jar (javax.inject:javax.inject:1) with IdentityTransform
+Transforming react-native-0.70.10-debug.aar (com.facebook.react:react-native:0.70.10) with JetifyTransform
+Transforming fresco-2.6.0.aar (com.facebook.fresco:fresco:2.6.0) with JetifyTransform
+Transforming fresco-2.6.0.aar (com.facebook.fresco:fresco:2.6.0) with AarToClassTransform
+Transforming react-native-0.70.10-debug.aar (com.facebook.react:react-native:0.70.10) with AarToClassTransform
+Transforming imagepipeline-okhttp3-2.5.0.aar (com.facebook.fresco:imagepipeline-okhttp3:2.5.0) with JetifyTransform
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+Transforming memory-type-ashmem-2.6.0.aar (com.facebook.fresco:memory-type-ashmem:2.6.0) with JetifyTransform
+Transforming memory-type-ashmem-2.6.0.aar (com.facebook.fresco:memory-type-ashmem:2.6.0) with AarToClassTransform
+Transforming nativeimagetranscoder-2.6.0.aar (com.facebook.fresco:nativeimagetranscoder:2.6.0) with JetifyTransform
+Transforming imagepipeline-okhttp3-2.5.0.aar (com.facebook.fresco:imagepipeline-okhttp3:2.5.0) with AarToClassTransform
+Transforming memory-type-java-2.6.0.aar (com.facebook.fresco:memory-type-java:2.6.0) with JetifyTransform
+Transforming memory-type-java-2.6.0.aar (com.facebook.fresco:memory-type-java:2.6.0) with AarToClassTransform
+Transforming infer-annotation-0.18.0.jar (com.facebook.infer.annotation:infer-annotation:0.18.0) with JetifyTransform
+Transforming nativeimagetranscoder-2.6.0.aar (com.facebook.fresco:nativeimagetranscoder:2.6.0) with AarToClassTransform
+Transforming infer-annotation-0.18.0.jar (com.facebook.infer.annotation:infer-annotation:0.18.0) with IdentityTransform
+Transforming soloader-0.10.4.aar (com.facebook.soloader:soloader:0.10.4) with JetifyTransform
+Transforming soloader-0.10.4.aar (com.facebook.soloader:soloader:0.10.4) with AarToClassTransform
+Transforming okhttp-urlconnection-4.9.2.jar (com.squareup.okhttp3:okhttp-urlconnection:4.9.2) with JetifyTransform
+Transforming okhttp-urlconnection-4.9.2.jar (com.squareup.okhttp3:okhttp-urlconnection:4.9.2) with IdentityTransform
+Transforming okio-jvm-2.9.0.jar (com.squareup.okio:okio:2.9.0) with JetifyTransform
+Transforming okio-jvm-2.9.0.jar (com.squareup.okio:okio:2.9.0) with IdentityTransform
+Transforming fragment-ktx-1.6.1.aar (androidx.fragment:fragment-ktx:1.6.1) with JetifyTransform
+Transforming fragment-ktx-1.6.1.aar (androidx.fragment:fragment-ktx:1.6.1) with AarToClassTransform
+Transforming soloader-2.6.0.aar (com.facebook.fresco:soloader:2.6.0) with JetifyTransform
+Transforming soloader-2.6.0.aar (com.facebook.fresco:soloader:2.6.0) with AarToClassTransform
+Transforming drawee-2.6.0.aar (com.facebook.fresco:drawee:2.6.0) with JetifyTransform
+Transforming drawee-2.6.0.aar (com.facebook.fresco:drawee:2.6.0) with AarToClassTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with JetifyTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarToClassTransform
+Transforming activity-ktx-1.8.0.aar (androidx.activity:activity-ktx:1.8.0) with JetifyTransform
+Transforming activity-ktx-1.8.0.aar (androidx.activity:activity-ktx:1.8.0) with AarToClassTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with JetifyTransform
+Transforming ui-common-2.6.0.aar (com.facebook.fresco:ui-common:2.6.0) with JetifyTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarToClassTransform
+Transforming ui-common-2.6.0.aar (com.facebook.fresco:ui-common:2.6.0) with AarToClassTransform
+Transforming imagepipeline-native-2.6.0.aar (com.facebook.fresco:imagepipeline-native:2.6.0) with JetifyTransform
+Transforming imagepipeline-native-2.6.0.aar (com.facebook.fresco:imagepipeline-native:2.6.0) with AarToClassTransform
+Transforming resourceinspection-annotation-1.0.1.jar (androidx.resourceinspection:resourceinspection-annotation:1.0.1) with JetifyTransform
+Transforming resourceinspection-annotation-1.0.1.jar (androidx.resourceinspection:resourceinspection-annotation:1.0.1) with IdentityTransform
+Transforming nativeimagefilters-2.6.0.aar (com.facebook.fresco:nativeimagefilters:2.6.0) with JetifyTransform
+Transforming nativeimagefilters-2.6.0.aar (com.facebook.fresco:nativeimagefilters:2.6.0) with AarToClassTransform
+Transforming annotation-jvm-1.8.1.jar (androidx.annotation:annotation-jvm:1.8.1) with JetifyTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+Transforming annotation-jvm-1.8.1.jar (androidx.annotation:annotation-jvm:1.8.1) with IdentityTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarToClassTransform
+Transforming listenablefuture-1.0.jar (com.google.guava:listenablefuture:1.0) with JetifyTransform
+Transforming listenablefuture-1.0.jar (com.google.guava:listenablefuture:1.0) with IdentityTransform
+Transforming viewpager2-1.0.0.aar (androidx.viewpager2:viewpager2:1.0.0) with JetifyTransform
+Transforming viewpager2-1.0.0.aar (androidx.viewpager2:viewpager2:1.0.0) with AarToClassTransform
+Transforming memory-type-native-2.6.0.aar (com.facebook.fresco:memory-type-native:2.6.0) with JetifyTransform
+Transforming autofill-1.1.0.aar (androidx.autofill:autofill:1.1.0) with JetifyTransform
+Transforming memory-type-native-2.6.0.aar (com.facebook.fresco:memory-type-native:2.6.0) with AarToClassTransform
+Transforming autofill-1.1.0.aar (androidx.autofill:autofill:1.1.0) with AarToClassTransform
+Transforming activity-1.8.0.aar (androidx.activity:activity:1.8.0) with JetifyTransform
+Transforming annotation-0.10.4.jar (com.facebook.soloader:annotation:0.10.4) with JetifyTransform
+Transforming activity-1.8.0.aar (androidx.activity:activity:1.8.0) with AarToClassTransform
+Transforming annotation-0.10.4.jar (com.facebook.soloader:annotation:0.10.4) with IdentityTransform
+Transforming constraintlayout-core-1.0.0.jar (androidx.constraintlayout:constraintlayout-core:1.0.0) with JetifyTransform
+Transforming constraintlayout-core-1.0.0.jar (androidx.constraintlayout:constraintlayout-core:1.0.0) with IdentityTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarToClassTransform
+Transforming imagepipeline-2.6.0.aar (com.facebook.fresco:imagepipeline:2.6.0) with JetifyTransform
+Transforming lifecycle-process-2.6.2.aar (androidx.lifecycle:lifecycle-process:2.6.2) with JetifyTransform
+Transforming imagepipeline-2.6.0.aar (com.facebook.fresco:imagepipeline:2.6.0) with AarToClassTransform
+Transforming lifecycle-process-2.6.2.aar (androidx.lifecycle:lifecycle-process:2.6.2) with AarToClassTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with JetifyTransform
+Transforming graphics-shapes-release.aar (androidx.graphics:graphics-shapes-android:1.0.1) with JetifyTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with AarToClassTransform
+Transforming graphics-shapes-release.aar (androidx.graphics:graphics-shapes-android:1.0.1) with AarToClassTransform
+Transforming imagepipeline-base-2.6.0.aar (com.facebook.fresco:imagepipeline-base:2.6.0) with JetifyTransform
+Transforming imagepipeline-base-2.6.0.aar (com.facebook.fresco:imagepipeline-base:2.6.0) with AarToClassTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with JetifyTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarToClassTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with AarToClassTransform
+Transforming lifecycle-livedata-2.6.2.aar (androidx.lifecycle:lifecycle-livedata:2.6.2) with JetifyTransform
+Transforming lifecycle-livedata-2.6.2.aar (androidx.lifecycle:lifecycle-livedata:2.6.2) with AarToClassTransform
+Transforming lifecycle-livedata-core-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2) with JetifyTransform
+Transforming lifecycle-livedata-core-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2) with AarToClassTransform
+Transforming lifecycle-livedata-core-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core:2.6.2) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with JetifyTransform
+Transforming lifecycle-livedata-core-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core:2.6.2) with AarToClassTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarToClassTransform
+Transforming cardview-1.0.0.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+Transforming cardview-1.0.0.aar (androidx.cardview:cardview:1.0.0) with AarToClassTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with JetifyTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with AarToClassTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarToClassTransform
+Transforming lifecycle-runtime-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.6.2) with JetifyTransform
+Transforming lifecycle-runtime-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.6.2) with AarToClassTransform
+Transforming lifecycle-common-2.6.2.jar (androidx.lifecycle:lifecycle-common:2.6.2) with JetifyTransform
+Transforming lifecycle-common-2.6.2.jar (androidx.lifecycle:lifecycle-common:2.6.2) with IdentityTransform
+Transforming kotlin-annotations-jvm-1.3.72.jar (org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72) with JetifyTransform
+Transforming kotlin-annotations-jvm-1.3.72.jar (org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72) with IdentityTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with JetifyTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with AarToClassTransform
+work action Parameters of DexingWithClasspathTransform (Thread[Execution worker Thread 10,5,main]) started.
+Transforming material-1.13.0.aar (com.google.android.material:material:1.13.0) with JetifyTransform
+Transforming material-1.13.0.aar (com.google.android.material:material:1.13.0) with AarToClassTransform
+Transforming lifecycle-viewmodel-savedstate-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2) with JetifyTransform
+Transforming lifecycle-viewmodel-savedstate-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2) with AarToClassTransform
+Transforming coordinatorlayout-1.2.0.aar (androidx.coordinatorlayout:coordinatorlayout:1.2.0) with JetifyTransform
+Transforming coordinatorlayout-1.2.0.aar (androidx.coordinatorlayout:coordinatorlayout:1.2.0) with AarToClassTransform
+work action null (Thread[Execution worker Thread 10,5,main]) completed. Took 0.002 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 10,5,main]) started.
+Transforming fbjni-java-only-0.2.2.jar (com.facebook.fbjni:fbjni-java-only:0.2.2) with JetifyTransform
+Transforming fbjni-java-only-0.2.2.jar (com.facebook.fbjni:fbjni-java-only:0.2.2) with IdentityTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with JetifyTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with AarToClassTransform
+Transforming fbcore-2.6.0.aar (com.facebook.fresco:fbcore:2.6.0) with JetifyTransform
+Transforming fbcore-2.6.0.aar (com.facebook.fresco:fbcore:2.6.0) with AarToClassTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with JetifyTransform
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+Transforming drawerlayout-1.1.1.aar (androidx.drawerlayout:drawerlayout:1.1.1) with JetifyTransform
+Transforming appcompat-resources-1.7.0.aar (androidx.appcompat:appcompat-resources:1.7.0) with JetifyTransform
+Transforming lifecycle-runtime-2.6.2.aar (androidx.lifecycle:lifecycle-runtime:2.6.2) with JetifyTransform
+Transforming lifecycle-runtime-2.6.2.aar (androidx.lifecycle:lifecycle-runtime:2.6.2) with AarToClassTransform
+Transforming appcompat-resources-1.7.0.aar (androidx.appcompat:appcompat-resources:1.7.0) with AarToClassTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with AarToClassTransform
+Transforming middleware-2.6.0.aar (com.facebook.fresco:middleware:2.6.0) with JetifyTransform
+Transforming middleware-2.6.0.aar (com.facebook.fresco:middleware:2.6.0) with AarToClassTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with JetifyTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with JetifyTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarToClassTransform
+Transforming drawerlayout-1.1.1.aar (androidx.drawerlayout:drawerlayout:1.1.1) with AarToClassTransform
+Transforming appcompat-resources-1.7.0.aar (androidx.appcompat:appcompat-resources:1.7.0) with JetifyTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with AarToClassTransform
+Transforming appcompat-resources-1.7.0.aar (androidx.appcompat:appcompat-resources:1.7.0) with AarToClassTransform
+Transforming proguard-annotations-1.19.0.jar (com.facebook.yoga:proguard-annotations:1.19.0) with JetifyTransform
+Transforming proguard-annotations-1.19.0.jar (com.facebook.yoga:proguard-annotations:1.19.0) with IdentityTransform
+Transforming okhttp-4.9.2.jar (com.squareup.okhttp3:okhttp:4.9.2) with JetifyTransform
+Transforming okhttp-4.9.2.jar (com.squareup.okhttp3:okhttp:4.9.2) with IdentityTransform
+Transforming okhttp-4.9.2.jar (com.squareup.okhttp3:okhttp:4.9.2) with JetifyTransform
+Transforming okhttp-4.9.2.jar (com.squareup.okhttp3:okhttp:4.9.2) with IdentityTransform
+Transforming bolts-tasks-1.4.0.jar (com.parse.bolts:bolts-tasks:1.4.0) with JetifyTransform
+Transforming bolts-tasks-1.4.0.jar (com.parse.bolts:bolts-tasks:1.4.0) with IdentityTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with JetifyTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with AarToClassTransform
+Transforming proguard-annotations-1.19.0.jar (com.facebook.yoga:proguard-annotations:1.19.0) with JetifyTransform
+Transforming proguard-annotations-1.19.0.jar (com.facebook.yoga:proguard-annotations:1.19.0) with IdentityTransform
+Transforming appcompat-1.7.0.aar (androidx.appcompat:appcompat:1.7.0) with JetifyTransform
+Transforming appcompat-1.7.0.aar (androidx.appcompat:appcompat:1.7.0) with AarToClassTransform
+Transforming constraintlayout-2.1.0.aar (androidx.constraintlayout:constraintlayout:2.1.0) with JetifyTransform
+Transforming constraintlayout-2.1.0.aar (androidx.constraintlayout:constraintlayout:2.1.0) with AarToClassTransform
+Transforming kotlinx-coroutines-core-jvm-1.6.4.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4) with JetifyTransform
+Transforming kotlinx-coroutines-core-jvm-1.6.4.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4) with IdentityTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with JetifyTransform
+Transforming emoji2-views-helper-1.3.0.aar (androidx.emoji2:emoji2-views-helper:1.3.0) with JetifyTransform
+Transforming emoji2-views-helper-1.3.0.aar (androidx.emoji2:emoji2-views-helper:1.3.0) with AarToClassTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with AarToClassTransform
+Transforming core-ktx-1.13.0.aar (androidx.core:core-ktx:1.13.0) with JetifyTransform
+Transforming core-ktx-1.13.0.aar (androidx.core:core-ktx:1.13.0) with AarToClassTransform
+Transforming dynamicanimation-1.1.0.aar (androidx.dynamicanimation:dynamicanimation:1.1.0) with JetifyTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with JetifyTransform
+Transforming dynamicanimation-1.1.0.aar (androidx.dynamicanimation:dynamicanimation:1.1.0) with AarToClassTransform
+Transforming transition-1.5.0.aar (androidx.transition:transition:1.5.0) with JetifyTransform
+Transforming transition-1.5.0.aar (androidx.transition:transition:1.5.0) with AarToClassTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming kotlin-stdlib-jdk8-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarToClassTransform
+Transforming kotlin-stdlib-jdk7-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22) with JetifyTransform
+Transforming kotlin-stdlib-jdk8-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22) with IdentityTransform
+Transforming cursoradapter-1.0.0.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with JetifyTransform
+Transforming core-common-2.2.0.jar (androidx.arch.core:core-common:2.2.0) with JetifyTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarToClassTransform
+Transforming annotation-experimental-1.4.1.aar (androidx.annotation:annotation-experimental:1.4.1) with JetifyTransform
+Transforming annotation-experimental-1.4.1.aar (androidx.annotation:annotation-experimental:1.4.1) with AarToClassTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarToClassTransform
+Transforming kotlinx-coroutines-android-1.6.4.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4) with JetifyTransform
+Transforming kotlinx-coroutines-android-1.6.4.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4) with IdentityTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with AarToClassTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with JetifyTransform
+Transforming collection-ktx-1.4.2.jar (androidx.collection:collection-ktx:1.4.2) with JetifyTransform
+Transforming core-common-2.2.0.jar (androidx.arch.core:core-common:2.2.0) with IdentityTransform
+Transforming kotlin-stdlib-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib:1.8.22) with JetifyTransform
+Transforming cursoradapter-1.0.0.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarToClassTransform
+Transforming kotlin-stdlib-jdk7-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22) with IdentityTransform
+Transforming kotlin-stdlib-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib:1.8.22) with IdentityTransform
+Transforming kotlin-stdlib-jdk7-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22) with JetifyTransform
+Transforming collection-ktx-1.4.2.jar (androidx.collection:collection-ktx:1.4.2) with IdentityTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarToClassTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with JetifyTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarToClassTransform
+Transforming kotlin-stdlib-common-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22) with JetifyTransform
+Transforming kotlin-stdlib-common-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22) with IdentityTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with JetifyTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarToClassTransform
+Transforming core-common-2.2.0.jar (androidx.arch.core:core-common:2.2.0) with JetifyTransform
+Transforming nativeloader-0.10.4.jar (com.facebook.soloader:nativeloader:0.10.4) with JetifyTransform
+Transforming nativeloader-0.10.4.jar (com.facebook.soloader:nativeloader:0.10.4) with IdentityTransform
+Transforming lifecycle-viewmodel-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2) with JetifyTransform
+Transforming lifecycle-viewmodel-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2) with AarToClassTransform
+Transforming bolts-tasks-1.4.0.jar (com.parse.bolts:bolts-tasks:1.4.0) with JetifyTransform
+Transforming kotlin-stdlib-jdk7-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22) with IdentityTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with JetifyTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with AarToClassTransform
+Transforming collection-jvm-1.4.2.jar (androidx.collection:collection-jvm:1.4.2) with JetifyTransform
+Transforming collection-jvm-1.4.2.jar (androidx.collection:collection-jvm:1.4.2) with IdentityTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarToClassTransform
+Transforming collection-jvm-1.4.2.jar (androidx.collection:collection-jvm:1.4.2) with JetifyTransform
+Transforming concurrent-futures-1.1.0.jar (androidx.concurrent:concurrent-futures:1.1.0) with JetifyTransform
+Transforming collection-jvm-1.4.2.jar (androidx.collection:collection-jvm:1.4.2) with IdentityTransform
+Transforming jspecify-1.0.0.jar (org.jspecify:jspecify:1.0.0) with JetifyTransform
+Transforming jspecify-1.0.0.jar (org.jspecify:jspecify:1.0.0) with IdentityTransform
+Transforming core-ktx-1.13.0.aar (androidx.core:core-ktx:1.13.0) with JetifyTransform
+Transforming core-ktx-1.13.0.aar (androidx.core:core-ktx:1.13.0) with AarToClassTransform
+Transforming concurrent-futures-1.1.0.jar (androidx.concurrent:concurrent-futures:1.1.0) with JetifyTransform
+Transforming concurrent-futures-1.1.0.jar (androidx.concurrent:concurrent-futures:1.1.0) with IdentityTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarToClassTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with JetifyTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarToClassTransform
+Transforming error_prone_annotations-2.15.0.jar (com.google.errorprone:error_prone_annotations:2.15.0) with JetifyTransform
+Transforming error_prone_annotations-2.15.0.jar (com.google.errorprone:error_prone_annotations:2.15.0) with IdentityTransform
+Transforming appcompat-1.7.0.aar (androidx.appcompat:appcompat:1.7.0) with JetifyTransform
+Transforming appcompat-1.7.0.aar (androidx.appcompat:appcompat:1.7.0) with AarToClassTransform
+Transforming bolts-tasks-1.4.0.jar (com.parse.bolts:bolts-tasks:1.4.0) with IdentityTransform
+Transforming core-common-2.2.0.jar (androidx.arch.core:core-common:2.2.0) with IdentityTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with JetifyTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarToClassTransform
+Transforming concurrent-futures-1.1.0.jar (androidx.concurrent:concurrent-futures:1.1.0) with IdentityTransform
+Transforming emoji2-views-helper-1.3.0.aar (androidx.emoji2:emoji2-views-helper:1.3.0) with JetifyTransform
+Transforming emoji2-views-helper-1.3.0.aar (androidx.emoji2:emoji2-views-helper:1.3.0) with AarToClassTransform
+work action null (Thread[included builds,5,main]) completed. Took 0.022 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+Transforming sqlite-framework-2.1.0.aar (androidx.sqlite:sqlite-framework:2.1.0) with JetifyTransform
+Transforming sqlite-framework-2.1.0.aar (androidx.sqlite:sqlite-framework:2.1.0) with AarToClassTransform
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 2,5,main]) started.
+Transforming Java-WebSocket-1.5.2.jar (org.java-websocket:Java-WebSocket:1.5.2) with JetifyTransform
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 2,5,main]) started.
+Transforming slf4j-api-1.7.25.jar (org.slf4j:slf4j-api:1.7.25) with JetifyTransform
+Transforming slf4j-api-1.7.25.jar (org.slf4j:slf4j-api:1.7.25) with IdentityTransform
+Transforming Java-WebSocket-1.5.2.jar (org.java-websocket:Java-WebSocket:1.5.2) with IdentityTransform
+Transforming sqlite-2.1.0.aar (androidx.sqlite:sqlite:2.1.0) with JetifyTransform
+Transforming sqlite-2.1.0.aar (androidx.sqlite:sqlite:2.1.0) with AarToClassTransform
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+Transforming flipper-2.6.0.aar (com.facebook.fresco:flipper:2.6.0) with JetifyTransform
+Transforming flipper-2.6.0.aar (com.facebook.fresco:flipper:2.6.0) with AarToClassTransform
+Transforming stetho-2.6.0.aar (com.facebook.fresco:stetho:2.6.0) with JetifyTransform
+Transforming stetho-2.6.0.aar (com.facebook.fresco:stetho:2.6.0) with AarToClassTransform
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 9,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 9,5,main]) completed. Took 0.003 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 9,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+work action null (Thread[Execution worker Thread 9,5,main]) completed. Took 0.001 secs.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 6,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 6,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 6,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.001 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.001 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.001 secs.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action null (Thread[included builds,5,main]) completed. Took 0.043 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[included builds,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[included builds,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[included builds,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 11,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 11,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 11,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker,5,main]) started.
+work action null (Thread[Execution worker Thread 11,5,main]) completed. Took 0.0 secs.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 11,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 11,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 11,5,main]) started.
+work action null (Thread[Execution worker Thread 10,5,main]) completed. Took 0.06 secs.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 11,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 11,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 11,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 11,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 11,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 11,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 11,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+work action null (Thread[included builds,5,main]) completed. Took 0.001 secs.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[included builds,5,main]) completed. Took 0.001 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[included builds,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[included builds,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[included builds,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 4,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 8,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 3,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 3,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 5,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action Dependencies for DexingWithClasspathTransform (Thread[Execution worker Thread 7,5,main]) started.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+work action null (Thread[Execution worker Thread 7,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:generatePackageList (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:generatePackageList (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+:app:generatePackageList (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :app:generatePackageList
+Caching disabled for task ':app:generatePackageList' because:
+  Build cache is disabled
+Task ':app:generatePackageList' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+:app:generatePackageList (Thread[Execution worker Thread 10,5,main]) completed. Took 0.005 secs.
+Resolve mutations for :app:preBuild (Thread[Execution worker Thread 10,5,main]) started.
+Resolve mutations for :app:preBuild (Thread[Execution worker Thread 10,5,main]) completed. Took 0.0 secs.
+:app:preBuild (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :app:preBuild
+Skipping task ':app:preBuild' as it has no actions.
+:app:preBuild (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:preDebugBuild (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:preDebugBuild (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+:app:preDebugBuild (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:preDebugBuild
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 5,5,main]) started.
+:app:preDebugBuild (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+:app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+:app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :react-native-safe-area-context:preBuild (Thread[Execution worker Thread 6,5,main]) started.
+Resolve mutations for :react-native-safe-area-context:preBuild (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+:react-native-safe-area-context:preBuild (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+Skipping task ':react-native-safe-area-context:preBuild' as it has no actions.
+:react-native-safe-area-context:preBuild (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :react-native-safe-area-context:preDebugBuild (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :react-native-safe-area-context:preDebugBuild (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+:react-native-safe-area-context:preDebugBuild (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+Skipping task ':react-native-safe-area-context:preDebugBuild' as it has no actions.
+:react-native-safe-area-context:preDebugBuild (Thread[Execution worker Thread 11,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :react-native-safe-area-context:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :react-native-safe-area-context:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+:react-native-safe-area-context:compileDebugAidl (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :react-native-safe-area-context:compileDebugAidl NO-SOURCE
+Skipping task ':react-native-safe-area-context:compileDebugAidl' as it has no source files and no previous output files.
+:react-native-safe-area-context:compileDebugAidl (Thread[Execution worker Thread 11,5,main]) completed. Took 0.001 secs.
+work action resolve out (project :react-native-safe-area-context) (Thread[Execution worker Thread 8,5,main]) started.
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :react-native-screens:preBuild (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :react-native-screens:preBuild (Thread[Execution worker Thread 4,5,main]) completed. Took 0.0 secs.
+:react-native-screens:preBuild (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :react-native-screens:preBuild UP-TO-DATE
+Skipping task ':react-native-screens:preBuild' as it has no actions.
+:react-native-screens:preBuild (Thread[Execution worker Thread 11,5,main]) completed. Took 0.002 secs.
+Resolve mutations for :react-native-screens:preDebugBuild (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :react-native-screens:preDebugBuild (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+:react-native-screens:preDebugBuild (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :react-native-screens:preDebugBuild UP-TO-DATE
+Skipping task ':react-native-screens:preDebugBuild' as it has no actions.
+:react-native-screens:preDebugBuild (Thread[Execution worker Thread 6,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :react-native-screens:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :react-native-screens:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+:react-native-screens:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :react-native-screens:compileDebugAidl NO-SOURCE
+Skipping task ':react-native-screens:compileDebugAidl' as it has no source files and no previous output files.
+:react-native-screens:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) completed. Took 0.001 secs.
+work action resolve out (project :react-native-screens) (Thread[Execution worker Thread 8,5,main]) started.
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :app:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+:app:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:compileDebugAidl NO-SOURCE
+Skipping task ':app:compileDebugAidl' as it has no source files and no previous output files.
+:app:compileDebugAidl (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :react-native-safe-area-context:packageDebugRenderscript (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :react-native-safe-area-context:packageDebugRenderscript (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+:react-native-safe-area-context:packageDebugRenderscript (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :react-native-safe-area-context:packageDebugRenderscript NO-SOURCE
+Skipping task ':react-native-safe-area-context:packageDebugRenderscript' as it has no source files and no previous output files.
+:react-native-safe-area-context:packageDebugRenderscript (Thread[Execution worker Thread 8,5,main]) completed. Took 0.001 secs.
+work action resolve out (project :react-native-safe-area-context) (Thread[Execution worker Thread 8,5,main]) started.
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :react-native-screens:packageDebugRenderscript (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :react-native-screens:packageDebugRenderscript (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+:react-native-screens:packageDebugRenderscript (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :react-native-screens:packageDebugRenderscript NO-SOURCE
+Skipping task ':react-native-screens:packageDebugRenderscript' as it has no source files and no previous output files.
+:react-native-screens:packageDebugRenderscript (Thread[Execution worker Thread 8,5,main]) completed. Took 0.001 secs.
+work action resolve out (project :react-native-screens) (Thread[Execution worker Thread 8,5,main]) started.
+work action null (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:compileDebugRenderscript (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :app:compileDebugRenderscript (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+:app:compileDebugRenderscript (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:compileDebugRenderscript NO-SOURCE
+Skipping task ':app:compileDebugRenderscript' as it has no source files and no previous output files.
+:app:compileDebugRenderscript (Thread[Execution worker Thread 8,5,main]) completed. Took 0.001 secs.
+Resolve mutations for :app:generateDebugBuildConfig (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :app:generateDebugBuildConfig (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+:app:generateDebugBuildConfig (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+Caching disabled for task ':app:generateDebugBuildConfig' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugBuildConfig' as it is up-to-date.
+:app:generateDebugBuildConfig (Thread[Execution worker Thread 8,5,main]) completed. Took 0.002 secs.
+Resolve mutations for :app:javaPreCompileDebug (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :app:javaPreCompileDebug (Thread[Execution worker Thread 8,5,main]) completed. Took 0.0 secs.
+:app:javaPreCompileDebug (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :react-native-safe-area-context:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+:app:javaPreCompileDebug (Thread[Execution worker Thread 8,5,main]) completed. Took 0.001 secs.
+Resolve mutations for :react-native-safe-area-context:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+:react-native-safe-area-context:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :react-native-safe-area-context:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':react-native-safe-area-context:writeDebugAarMetadata' because:
+  Build cache is disabled
+Skipping task ':react-native-safe-area-context:writeDebugAarMetadata' as it is up-to-date.
+:react-native-safe-area-context:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) completed. Took 0.001 secs.
+work action resolve aar-metadata.properties (project :react-native-safe-area-context) (Thread[Execution worker Thread 5,5,main]) started.
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+work action null (Thread[Execution worker Thread 2,5,main]) completed. Took 0.101 secs.
+Resolve mutations for :react-native-screens:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :react-native-screens:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+:react-native-screens:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :react-native-screens:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':react-native-screens:writeDebugAarMetadata' because:
+  Build cache is disabled
+Skipping task ':react-native-screens:writeDebugAarMetadata' as it is up-to-date.
+:react-native-screens:writeDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) completed. Took 0.001 secs.
+work action resolve aar-metadata.properties (project :react-native-screens) (Thread[Execution worker Thread 5,5,main]) started.
+work action null (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) completed. Took 0.0 secs.
+:app:checkDebugAarMetadata (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :app:bundleDebugJsAndAssets (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:bundleDebugJsAndAssets (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+:app:bundleDebugJsAndAssets (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:bundleDebugJsAndAssets SKIPPED
+Skipping task ':app:bundleDebugJsAndAssets' as task onlyIf is false.
+:app:bundleDebugJsAndAssets (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :app:generateDebugResValues (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:generateDebugResValues (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+:app:generateDebugResValues (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+:app:generateDebugResValues (Thread[Execution worker Thread 2,5,main]) completed. Took 0.001 secs.
+Resolve mutations for :react-native-safe-area-context:compileDebugRenderscript (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :react-native-safe-area-context:compileDebugRenderscript (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+:react-native-safe-area-context:compileDebugRenderscript (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :react-native-safe-area-context:compileDebugRenderscript NO-SOURCE
+Skipping task ':react-native-safe-area-context:compileDebugRenderscript' as it has no source files and no previous output files.
+:react-native-safe-area-context:compileDebugRenderscript (Thread[Execution worker Thread 2,5,main]) completed. Took 0.001 secs.
+Resolve mutations for :react-native-safe-area-context:generateDebugResValues (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :react-native-safe-area-context:generateDebugResValues (Thread[Execution worker Thread 2,5,main]) completed. Took 0.004 secs.
+:react-native-safe-area-context:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :react-native-safe-area-context:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':react-native-safe-area-context:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':react-native-safe-area-context:generateDebugResValues' as it is up-to-date.
+:react-native-safe-area-context:generateDebugResValues (Thread[Execution worker Thread 3,5,main]) completed. Took 0.002 secs.
+Resolve mutations for :react-native-safe-area-context:generateDebugResources (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :react-native-safe-area-context:generateDebugResources (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+:react-native-safe-area-context:generateDebugResources (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :react-native-safe-area-context:generateDebugResources UP-TO-DATE
+Skipping task ':react-native-safe-area-context:generateDebugResources' as it has no actions.
+:react-native-safe-area-context:generateDebugResources (Thread[Execution worker Thread 9,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :react-native-safe-area-context:packageDebugResources (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :react-native-safe-area-context:packageDebugResources (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+:react-native-safe-area-context:packageDebugResources (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :app:checkDebugAarMetadata FAILED
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+Transforming react-native-0.70.10-debug.aar (com.facebook.react:react-native:0.70.10) with JetifyTransform
+Transforming react-native-0.70.10-debug.aar (com.facebook.react:react-native:0.70.10) with ExtractAarTransform
+Transforming react-native-0.70.10-debug.aar (com.facebook.react:react-native:0.70.10) with AarTransform
+Transforming swiperefreshlayout-1.1.0.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.1.0) with JetifyTransform
+Transforming swiperefreshlayout-1.1.0.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.1.0) with ExtractAarTransform
+Transforming swiperefreshlayout-1.1.0.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.1.0) with AarTransform
+Transforming flipper-2.6.0.aar (com.facebook.fresco:flipper:2.6.0) with JetifyTransform
+Transforming flipper-2.6.0.aar (com.facebook.fresco:flipper:2.6.0) with ExtractAarTransform
+Transforming flipper-2.6.0.aar (com.facebook.fresco:flipper:2.6.0) with AarTransform
+Transforming stetho-2.6.0.aar (com.facebook.fresco:stetho:2.6.0) with JetifyTransform
+Transforming stetho-2.6.0.aar (com.facebook.fresco:stetho:2.6.0) with ExtractAarTransform
+Transforming stetho-2.6.0.aar (com.facebook.fresco:stetho:2.6.0) with AarTransform
+Transforming fresco-2.6.0.aar (com.facebook.fresco:fresco:2.6.0) with JetifyTransform
+Transforming fresco-2.6.0.aar (com.facebook.fresco:fresco:2.6.0) with ExtractAarTransform
+Transforming fresco-2.6.0.aar (com.facebook.fresco:fresco:2.6.0) with AarTransform
+Transforming soloader-2.6.0.aar (com.facebook.fresco:soloader:2.6.0) with JetifyTransform
+Transforming soloader-2.6.0.aar (com.facebook.fresco:soloader:2.6.0) with ExtractAarTransform
+Transforming soloader-2.6.0.aar (com.facebook.fresco:soloader:2.6.0) with AarTransform
+Transforming imagepipeline-okhttp3-2.5.0.aar (com.facebook.fresco:imagepipeline-okhttp3:2.5.0) with JetifyTransform
+Transforming imagepipeline-okhttp3-2.5.0.aar (com.facebook.fresco:imagepipeline-okhttp3:2.5.0) with ExtractAarTransform
+Transforming imagepipeline-okhttp3-2.5.0.aar (com.facebook.fresco:imagepipeline-okhttp3:2.5.0) with AarTransform
+Transforming drawee-2.6.0.aar (com.facebook.fresco:drawee:2.6.0) with JetifyTransform
+Transforming drawee-2.6.0.aar (com.facebook.fresco:drawee:2.6.0) with ExtractAarTransform
+Transforming drawee-2.6.0.aar (com.facebook.fresco:drawee:2.6.0) with AarTransform
+Transforming nativeimagefilters-2.6.0.aar (com.facebook.fresco:nativeimagefilters:2.6.0) with JetifyTransform
+Transforming nativeimagefilters-2.6.0.aar (com.facebook.fresco:nativeimagefilters:2.6.0) with ExtractAarTransform
+Transforming nativeimagefilters-2.6.0.aar (com.facebook.fresco:nativeimagefilters:2.6.0) with AarTransform
+Transforming memory-type-native-2.6.0.aar (com.facebook.fresco:memory-type-native:2.6.0) with JetifyTransform
+Transforming memory-type-native-2.6.0.aar (com.facebook.fresco:memory-type-native:2.6.0) with ExtractAarTransform
+Transforming memory-type-native-2.6.0.aar (com.facebook.fresco:memory-type-native:2.6.0) with AarTransform
+Transforming memory-type-java-2.6.0.aar (com.facebook.fresco:memory-type-java:2.6.0) with JetifyTransform
+Transforming memory-type-java-2.6.0.aar (com.facebook.fresco:memory-type-java:2.6.0) with ExtractAarTransform
+Transforming memory-type-java-2.6.0.aar (com.facebook.fresco:memory-type-java:2.6.0) with AarTransform
+Transforming imagepipeline-native-2.6.0.aar (com.facebook.fresco:imagepipeline-native:2.6.0) with JetifyTransform
+Transforming imagepipeline-native-2.6.0.aar (com.facebook.fresco:imagepipeline-native:2.6.0) with ExtractAarTransform
+Transforming imagepipeline-native-2.6.0.aar (com.facebook.fresco:imagepipeline-native:2.6.0) with AarTransform
+Transforming soloader-0.10.4.aar (com.facebook.soloader:soloader:0.10.4) with JetifyTransform
+Transforming soloader-0.10.4.aar (com.facebook.soloader:soloader:0.10.4) with ExtractAarTransform
+Transforming flipper-0.125.0.aar (com.facebook.flipper:flipper:0.125.0) with JetifyTransform
+Transforming soloader-0.10.4.aar (com.facebook.soloader:soloader:0.10.4) with AarTransform
+Transforming memory-type-ashmem-2.6.0.aar (com.facebook.fresco:memory-type-ashmem:2.6.0) with JetifyTransform
+Transforming memory-type-ashmem-2.6.0.aar (com.facebook.fresco:memory-type-ashmem:2.6.0) with ExtractAarTransform
+Transforming memory-type-ashmem-2.6.0.aar (com.facebook.fresco:memory-type-ashmem:2.6.0) with AarTransform
+Transforming imagepipeline-2.6.0.aar (com.facebook.fresco:imagepipeline:2.6.0) with JetifyTransform
+Transforming imagepipeline-2.6.0.aar (com.facebook.fresco:imagepipeline:2.6.0) with ExtractAarTransform
+Transforming imagepipeline-2.6.0.aar (com.facebook.fresco:imagepipeline:2.6.0) with AarTransform
+Transforming flipper-network-plugin-0.125.0.aar (com.facebook.flipper:flipper-network-plugin:0.125.0) with JetifyTransform
+Transforming flipper-0.125.0.aar (com.facebook.flipper:flipper:0.125.0) with ExtractAarTransform
+Transforming flipper-network-plugin-0.125.0.aar (com.facebook.flipper:flipper-network-plugin:0.125.0) with ExtractAarTransform
+Transforming flipper-network-plugin-0.125.0.aar (com.facebook.flipper:flipper-network-plugin:0.125.0) with AarTransform
+Transforming hermes-engine-0.70.10-debug.aar (com.facebook.react:hermes-engine:0.70.10) with JetifyTransform
+Transforming flipper-fresco-plugin-0.125.0.aar (com.facebook.flipper:flipper-fresco-plugin:0.125.0) with JetifyTransform
+Transforming flipper-fresco-plugin-0.125.0.aar (com.facebook.flipper:flipper-fresco-plugin:0.125.0) with ExtractAarTransform
+Transforming flipper-0.125.0.aar (com.facebook.flipper:flipper:0.125.0) with AarTransform
+Transforming flipper-fresco-plugin-0.125.0.aar (com.facebook.flipper:flipper-fresco-plugin:0.125.0) with AarTransform
+Transforming nativeimagetranscoder-2.6.0.aar (com.facebook.fresco:nativeimagetranscoder:2.6.0) with JetifyTransform
+Transforming nativeimagetranscoder-2.6.0.aar (com.facebook.fresco:nativeimagetranscoder:2.6.0) with ExtractAarTransform
+Transforming nativeimagetranscoder-2.6.0.aar (com.facebook.fresco:nativeimagetranscoder:2.6.0) with AarTransform
+Transforming hermes-engine-0.70.10-debug.aar (com.facebook.react:hermes-engine:0.70.10) with ExtractAarTransform
+Transforming hermes-engine-0.70.10-debug.aar (com.facebook.react:hermes-engine:0.70.10) with AarTransform
+Transforming imagepipeline-base-2.6.0.aar (com.facebook.fresco:imagepipeline-base:2.6.0) with JetifyTransform
+Transforming imagepipeline-base-2.6.0.aar (com.facebook.fresco:imagepipeline-base:2.6.0) with ExtractAarTransform
+Transforming imagepipeline-base-2.6.0.aar (com.facebook.fresco:imagepipeline-base:2.6.0) with AarTransform
+Transforming material-1.13.0.aar (com.google.android.material:material:1.13.0) with JetifyTransform
+Transforming material-1.13.0.aar (com.google.android.material:material:1.13.0) with ExtractAarTransform
+Transforming material-1.13.0.aar (com.google.android.material:material:1.13.0) with AarTransform
+Transforming constraintlayout-2.1.0.aar (androidx.constraintlayout:constraintlayout:2.1.0) with JetifyTransform
+Transforming constraintlayout-2.1.0.aar (androidx.constraintlayout:constraintlayout:2.1.0) with ExtractAarTransform
+Transforming constraintlayout-2.1.0.aar (androidx.constraintlayout:constraintlayout:2.1.0) with AarTransform
+Transforming appcompat-resources-1.7.0.aar (androidx.appcompat:appcompat-resources:1.7.0) with JetifyTransform
+Transforming appcompat-resources-1.7.0.aar (androidx.appcompat:appcompat-resources:1.7.0) with ExtractAarTransform
+Transforming appcompat-resources-1.7.0.aar (androidx.appcompat:appcompat-resources:1.7.0) with AarTransform
+Transforming appcompat-1.7.0.aar (androidx.appcompat:appcompat:1.7.0) with JetifyTransform
+Transforming appcompat-1.7.0.aar (androidx.appcompat:appcompat:1.7.0) with ExtractAarTransform
+Transforming appcompat-1.7.0.aar (androidx.appcompat:appcompat:1.7.0) with AarTransform
+Transforming sqlite-framework-2.1.0.aar (androidx.sqlite:sqlite-framework:2.1.0) with JetifyTransform
+Transforming sqlite-framework-2.1.0.aar (androidx.sqlite:sqlite-framework:2.1.0) with ExtractAarTransform
+Transforming sqlite-framework-2.1.0.aar (androidx.sqlite:sqlite-framework:2.1.0) with AarTransform
+Transforming autofill-1.1.0.aar (androidx.autofill:autofill:1.1.0) with JetifyTransform
+Transforming autofill-1.1.0.aar (androidx.autofill:autofill:1.1.0) with ExtractAarTransform
+Transforming autofill-1.1.0.aar (androidx.autofill:autofill:1.1.0) with AarTransform
+Transforming middleware-2.6.0.aar (com.facebook.fresco:middleware:2.6.0) with JetifyTransform
+Transforming middleware-2.6.0.aar (com.facebook.fresco:middleware:2.6.0) with ExtractAarTransform
+Transforming middleware-2.6.0.aar (com.facebook.fresco:middleware:2.6.0) with AarTransform
+Transforming ui-common-2.6.0.aar (com.facebook.fresco:ui-common:2.6.0) with JetifyTransform
+Transforming ui-common-2.6.0.aar (com.facebook.fresco:ui-common:2.6.0) with ExtractAarTransform
+Transforming ui-common-2.6.0.aar (com.facebook.fresco:ui-common:2.6.0) with AarTransform
+Transforming fragment-ktx-1.6.1.aar (androidx.fragment:fragment-ktx:1.6.1) with JetifyTransform
+Transforming fragment-ktx-1.6.1.aar (androidx.fragment:fragment-ktx:1.6.1) with ExtractAarTransform
+Transforming fragment-ktx-1.6.1.aar (androidx.fragment:fragment-ktx:1.6.1) with AarTransform
+Transforming viewpager2-1.0.0.aar (androidx.viewpager2:viewpager2:1.0.0) with JetifyTransform
+Transforming viewpager2-1.0.0.aar (androidx.viewpager2:viewpager2:1.0.0) with ExtractAarTransform
+Transforming viewpager2-1.0.0.aar (androidx.viewpager2:viewpager2:1.0.0) with AarTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with JetifyTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with ExtractAarTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with AarTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with JetifyTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with ExtractAarTransform
+Transforming fragment-1.6.1.aar (androidx.fragment:fragment:1.6.1) with AarTransform
+Transforming activity-1.8.0.aar (androidx.activity:activity:1.8.0) with JetifyTransform
+Transforming activity-1.8.0.aar (androidx.activity:activity:1.8.0) with ExtractAarTransform
+Transforming activity-1.8.0.aar (androidx.activity:activity:1.8.0) with AarTransform
+Transforming activity-ktx-1.8.0.aar (androidx.activity:activity-ktx:1.8.0) with JetifyTransform
+Transforming activity-ktx-1.8.0.aar (androidx.activity:activity-ktx:1.8.0) with ExtractAarTransform
+Transforming activity-ktx-1.8.0.aar (androidx.activity:activity-ktx:1.8.0) with AarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with JetifyTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarTransform
+Transforming coordinatorlayout-1.2.0.aar (androidx.coordinatorlayout:coordinatorlayout:1.2.0) with JetifyTransform
+Transforming coordinatorlayout-1.2.0.aar (androidx.coordinatorlayout:coordinatorlayout:1.2.0) with ExtractAarTransform
+Transforming coordinatorlayout-1.2.0.aar (androidx.coordinatorlayout:coordinatorlayout:1.2.0) with AarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with JetifyTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with JetifyTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with JetifyTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming drawerlayout-1.1.1.aar (androidx.drawerlayout:drawerlayout:1.1.1) with JetifyTransform
+Transforming drawerlayout-1.1.1.aar (androidx.drawerlayout:drawerlayout:1.1.1) with ExtractAarTransform
+Transforming drawerlayout-1.1.1.aar (androidx.drawerlayout:drawerlayout:1.1.1) with AarTransform
+Transforming transition-1.5.0.aar (androidx.transition:transition:1.5.0) with JetifyTransform
+Transforming transition-1.5.0.aar (androidx.transition:transition:1.5.0) with ExtractAarTransform
+Transforming transition-1.5.0.aar (androidx.transition:transition:1.5.0) with AarTransform
+Transforming dynamicanimation-1.1.0.aar (androidx.dynamicanimation:dynamicanimation:1.1.0) with JetifyTransform
+Transforming dynamicanimation-1.1.0.aar (androidx.dynamicanimation:dynamicanimation:1.1.0) with ExtractAarTransform
+Transforming dynamicanimation-1.1.0.aar (androidx.dynamicanimation:dynamicanimation:1.1.0) with AarTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with JetifyTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with ExtractAarTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with AarTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with JetifyTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with ExtractAarTransform
+Transforming recyclerview-1.2.1.aar (androidx.recyclerview:recyclerview:1.2.1) with AarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+Transforming graphics-shapes-release.aar (androidx.graphics:graphics-shapes-android:1.0.1) with JetifyTransform
+Transforming graphics-shapes-release.aar (androidx.graphics:graphics-shapes-android:1.0.1) with ExtractAarTransform
+Transforming graphics-shapes-release.aar (androidx.graphics:graphics-shapes-android:1.0.1) with AarTransform
+Transforming core-ktx-1.13.0.aar (androidx.core:core-ktx:1.13.0) with JetifyTransform
+Transforming core-ktx-1.13.0.aar (androidx.core:core-ktx:1.13.0) with ExtractAarTransform
+Transforming core-ktx-1.13.0.aar (androidx.core:core-ktx:1.13.0) with AarTransform
+Transforming emoji2-views-helper-1.3.0.aar (androidx.emoji2:emoji2-views-helper:1.3.0) with JetifyTransform
+Transforming emoji2-views-helper-1.3.0.aar (androidx.emoji2:emoji2-views-helper:1.3.0) with ExtractAarTransform
+Transforming emoji2-views-helper-1.3.0.aar (androidx.emoji2:emoji2-views-helper:1.3.0) with AarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with JetifyTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with JetifyTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with ExtractAarTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with AarTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with JetifyTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with ExtractAarTransform
+Transforming customview-1.1.0.aar (androidx.customview:customview:1.1.0) with AarTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with JetifyTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with ExtractAarTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with AarTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with JetifyTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with ExtractAarTransform
+Transforming core-1.13.0.aar (androidx.core:core:1.13.0) with AarTransform
+Transforming lifecycle-viewmodel-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2) with JetifyTransform
+Transforming lifecycle-viewmodel-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2) with AarTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with JetifyTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with AarTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with JetifyTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.2) with AarTransform
+Transforming lifecycle-runtime-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.6.2) with JetifyTransform
+Transforming lifecycle-runtime-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.6.2) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-runtime-ktx:2.6.2) with AarTransform
+Transforming lifecycle-process-2.6.2.aar (androidx.lifecycle:lifecycle-process:2.6.2) with JetifyTransform
+Transforming lifecycle-process-2.6.2.aar (androidx.lifecycle:lifecycle-process:2.6.2) with ExtractAarTransform
+Transforming lifecycle-process-2.6.2.aar (androidx.lifecycle:lifecycle-process:2.6.2) with AarTransform
+Transforming lifecycle-livedata-core-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2) with JetifyTransform
+Transforming lifecycle-livedata-core-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2) with ExtractAarTransform
+Transforming lifecycle-livedata-core-ktx-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2) with AarTransform
+Transforming lifecycle-livedata-core-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core:2.6.2) with JetifyTransform
+Transforming lifecycle-livedata-core-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core:2.6.2) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.6.2.aar (androidx.lifecycle:lifecycle-livedata-core:2.6.2) with AarTransform
+Transforming lifecycle-livedata-2.6.2.aar (androidx.lifecycle:lifecycle-livedata:2.6.2) with JetifyTransform
+Transforming lifecycle-livedata-2.6.2.aar (androidx.lifecycle:lifecycle-livedata:2.6.2) with ExtractAarTransform
+Transforming lifecycle-livedata-2.6.2.aar (androidx.lifecycle:lifecycle-livedata:2.6.2) with AarTransform
+Transforming lifecycle-runtime-2.6.2.aar (androidx.lifecycle:lifecycle-runtime:2.6.2) with JetifyTransform
+Transforming lifecycle-runtime-2.6.2.aar (androidx.lifecycle:lifecycle-runtime:2.6.2) with ExtractAarTransform
+Transforming lifecycle-runtime-2.6.2.aar (androidx.lifecycle:lifecycle-runtime:2.6.2) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2) with JetifyTransform
+Transforming lifecycle-viewmodel-savedstate-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.6.2.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2) with AarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with JetifyTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarTransform
+Transforming sqlite-2.1.0.aar (androidx.sqlite:sqlite:2.1.0) with JetifyTransform
+Transforming sqlite-2.1.0.aar (androidx.sqlite:sqlite:2.1.0) with ExtractAarTransform
+Transforming sqlite-2.1.0.aar (androidx.sqlite:sqlite:2.1.0) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming cardview-1.0.0.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+Transforming cardview-1.0.0.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
+Transforming cardview-1.0.0.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+.\gradlew.bat : 
+At line:1 char:1
++ .\gradlew.bat assembleDebug --info 2>&1 | Out-File 
+-FilePath build_lo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [ 
+   ], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> A failure occurred while executing com.android.build.g
+radle.internal.tasks.CheckAarMetadataWorkAction
+   > An issue was found when checking AAR metadata:
+     
+       1.  Dependency 
+'androidx.dynamicanimation:dynamicanimation:1.1.0' 
+requires Android Gradle plugin 8.1.1 or higher.
+     
+           This build currently uses Android Gradle 
+plugin 7.3.1.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+========================================================
+======================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+java.lang.StackOverflowError (no error message)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+========================================================
+======================
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 20s
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with JetifyTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with JetifyTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with JetifyTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming cursoradapter-1.0.0.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+Transforming cursoradapter-1.0.0.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+Transforming cursoradapter-1.0.0.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with JetifyTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with JetifyTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarTransform
+Transforming annotation-experimental-1.4.1.aar (androidx.annotation:annotation-experimental:1.4.1) with JetifyTransform
+Transforming annotation-experimental-1.4.1.aar (androidx.annotation:annotation-experimental:1.4.1) with ExtractAarTransform
+Transforming annotation-experimental-1.4.1.aar (androidx.annotation:annotation-experimental:1.4.1) with AarTransform
+Transforming fbcore-2.6.0.aar (com.facebook.fresco:fbcore:2.6.0) with JetifyTransform
+Transforming fbcore-2.6.0.aar (com.facebook.fresco:fbcore:2.6.0) with ExtractAarTransform
+Transforming fbcore-2.6.0.aar (com.facebook.fresco:fbcore:2.6.0) with AarTransform
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+Task ':app:checkDebugAarMetadata' is not up-to-date because:
+  Task has failed previously.
+file or directory 'C:\TO_DO_LIST_APP\TodoListApp\android\app\libs', not found
+
+> Task :react-native-safe-area-context:packageDebugResources UP-TO-DATE
+Caching disabled for task ':react-native-safe-area-context:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':react-native-safe-area-context:packageDebugResources' as it is up-to-date.
+:app:checkDebugAarMetadata (Thread[Execution worker Thread 8,5,main]) completed. Took 0.054 secs.
+:react-native-safe-area-context:packageDebugResources (Thread[Execution worker Thread 9,5,main]) completed. Took 0.014 secs.
+14 actionable tasks: 2 executed, 12 up-to-date
+Watched directory hierarchies: [C:\TO_DO_LIST_APP\TodoListApp\node_modules\react-native-gradle-plugin, C:\TO_DO_LIST_APP\TodoListApp\android]

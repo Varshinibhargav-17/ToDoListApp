@@ -1,0 +1,24 @@
+# Node
+node_modules/
+
+# Android build outputs
+android/app/build/
+android/build/
+android/.gradle/
+android/app/.cxx/
+android/app/outputs/
+
+# APKs
+*.apk
+
+# iOS
+ios/Pods/
+ios/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env

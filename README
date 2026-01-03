@@ -1,0 +1,155 @@
+# 📱 React Native To-Do App with Authentication
+
+A feature-rich **To-Do List Mobile Application** built using **React Native CLI with TypeScript**, featuring **user authentication**, **task management**, and a **clean, modern UI**.
+
+This project was developed as part of an assignment to demonstrate understanding of **React Native fundamentals**, **state management**, and **authentication workflows**.
+
+---
+
+## 🚀 Features
+
+### 🔐 User Authentication
+- Register using **email and password**
+- Login for existing users
+- Secure authentication using **Firebase Authentication**
+- Persistent login session
+- Logout functionality
+
+### 📝 Task Management
+- Add tasks with:
+  - Title
+  - Description
+  - Priority (Low / Medium / High)
+  - Created date & time
+- View a list of all tasks
+- Mark tasks as **completed**
+- Delete tasks
+- Visual task status:
+  - Checkbox toggle
+  - Strikethrough for completed tasks
+  - “Completed” label for clarity
+
+### 🎨 User Interface
+- Clean, modern dark-themed UI
+- Card-based task layout
+- Priority display
+- Floating action button for adding tasks
+
+---
+
+## 🛠️ Tech Stack
+
+- **React Native CLI**
+- **TypeScript**
+- **Firebase Authentication**
+- **React Navigation**
+- **Context API** (state management)
+- **Android Emulator**
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ └── TaskItem.tsx
+├── context/
+│ ├── AuthContext.tsx
+│ └── TaskContext.tsx
+├── models/
+│ └── Task.ts
+├── navigation/
+│ ├── AuthNavigator.tsx
+│ └── AppNavigator.tsx
+├── screens/
+│ ├── HomeScreen.tsx
+│ ├── LoginScreen.tsx
+│ ├── RegisterScreen.tsx
+│ ├── TaskListScreen.tsx
+│ └── AddTaskScreen.tsx
+└── utils/
+
+
+---
+
+## 🔄 Application Flow
+
+1. **Home Screen**
+   - Introduction to the app
+   - Register / Login options
+
+2. **Authentication**
+   - User registers or logs in
+   - Firebase validates credentials
+
+3. **Task Dashboard**
+   - View all tasks
+   - Add new tasks
+   - Mark tasks as completed
+   - Delete tasks
+   - Logout
+
+---
+
+## 🧠 State Management
+
+- **AuthContext**
+  - Manages user authentication state
+  - Listens to Firebase auth changes
+
+- **TaskContext**
+  - Stores all tasks globally
+  - Handles add, toggle (complete), and delete operations
+
+---
+
+## 📋 Assignment Requirements Mapping
+
+| Requirement | Status |
+|---|---|
+| React Native CLI | ✅ |
+| TypeScript | ✅ |
+| User Registration | ✅ |
+| User Login | ✅ |
+| Add Tasks | ✅ |
+| View Task List | ✅ |
+| Mark Tasks as Completed | ✅ |
+| Delete Tasks | ✅ |
+| State Management | ✅ |
+| Clean UI | ✅ |
+
+---
+
+## 🧪 How to Run the Project
+
+### Prerequisites
+- Node.js (LTS)
+- Android Studio
+- React Native CLI
+- Firebase Project (Email/Password enabled)
+
+### Steps
+
+```bash
+npm install
+npx react-native run-android
+
+🔒 Firebase Configuration
+
+Firebase Authentication enabled (Email/Password)
+
+google-services.json added for Android
+
+Authentication handled using @react-native-firebase/auth
+
+💡 Future Enhancements
+
+Task sorting by priority & deadline
+
+Date & time picker for deadlines
+
+Task categories/tags
+
+Backend integration with Node.js & MongoDB
+
+Cloud sync for tasks
