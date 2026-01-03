@@ -15,22 +15,52 @@ export const TaskProvider: React.FC<{ children: React.ReactNode }> = ({
 }) => {
     const [tasks, setTasks] = useState<Task[]>([]);
 
+    // ✅ MIXED SORTING ALGORITHM
+    const sortTasks = (taskList: Task[]) => {
+        const priorityWeight: Record<string, number> = {
+            HIGH: 3,
+            MEDIUM: 2,
+            LOW: 1,
+        };
+
+        return [...taskList].sort((a, b) => {
+            // 1️⃣ Incomplete tasks first
+            if (a.completed !== b.completed) {
+                return a.completed ? 1 : -1;
+            }
+
+            // 2️⃣ Higher priority first
+            const priorityDiff =
+                priorityWeight[b.priority] - priorityWeight[a.priority];
+            if (priorityDiff !== 0) return priorityDiff;
+
+            // 3️⃣ Earlier deadline first
+            const deadlineDiff = a.deadline - b.deadline;
+            if (deadlineDiff !== 0) return deadlineDiff;
+
+            // 4️⃣ Earlier created time first
+            return a.createdAt - b.createdAt;
+        });
+    };
+
     const addTask = (task: Task) => {
-        setTasks(prev => [task, ...prev]);
+        setTasks(prev => sortTasks([...prev, task]));
     };
 
     const toggleTask = (id: string) => {
         setTasks(prev =>
-            prev.map(task =>
-                task.id === id
-                    ? { ...task, completed: !task.completed }
-                    : task
+            sortTasks(
+                prev.map(task =>
+                    task.id === id
+                        ? { ...task, completed: !task.completed }
+                        : task
+                )
             )
         );
     };
 
     const deleteTask = (id: string) => {
-        setTasks(prev => prev.filter(task => task.id !== id));
+        setTasks(prev => sortTasks(prev.filter(task => task.id !== id)));
     };
 
     return (
