@@ -59,7 +59,7 @@ const TaskItem: React.FC<Props> = ({ task }) => {
                     Priority: {task.priority}
                 </Text>
 
-                {/* ✅ DEADLINE DISPLAY */}
+                {/*  DEADLINE DISPLAY */}
                 <Text style={styles.meta}>
                     Deadline: {new Date(task.deadline).toLocaleString()}
                 </Text>

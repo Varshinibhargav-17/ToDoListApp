@@ -17,7 +17,7 @@ const AddTaskScreen = ({ navigation }: any) => {
     const [description, setDescription] = useState('');
     const [priority, setPriority] = useState<Priority>('MEDIUM');
 
-    // ✅ deadline states
+    //  deadline states
     const [deadline, setDeadline] = useState<Date>(new Date());
     const [showDatePicker, setShowDatePicker] = useState(false);
     const [showTimePicker, setShowTimePicker] = useState(false);
@@ -30,7 +30,7 @@ const AddTaskScreen = ({ navigation }: any) => {
             title,
             description,
             createdAt: Date.now(),
-            deadline: deadline.getTime(), // ✅ correct deadline
+            deadline: deadline.getTime(), //  correct deadline
             priority,
             completed: false,
         };
@@ -60,7 +60,7 @@ const AddTaskScreen = ({ navigation }: any) => {
                 multiline
             />
 
-            {/* ✅ DEADLINE PICKER */}
+            {/*  DEADLINE PICKER */}
             <Text style={styles.label}>Deadline</Text>
 
             <TouchableOpacity
@@ -88,7 +88,7 @@ const AddTaskScreen = ({ navigation }: any) => {
                                 selectedDate.getDate()
                             );
                             setDeadline(newDate);
-                            setShowTimePicker(true); // 🔥 open time picker next
+                            setShowTimePicker(true); //  open time picker next
                         }
                     }}
                 />

@@ -1,155 +1,71 @@
-# 📱 React Native To-Do App with Authentication
+# Todo List App - React Native Assignment
 
-A feature-rich **To-Do List Mobile Application** built using **React Native CLI with TypeScript**, featuring **user authentication**, **task management**, and a **clean, modern UI**.
+A Todo list mobile app built with React Native CLI and TypeScript for Modulus Seventeen assignment.
 
-This project was developed as part of an assignment to demonstrate understanding of **React Native fundamentals**, **state management**, and **authentication workflows**.
+## What It Does
 
----
-
-## 🚀 Features
-
-### 🔐 User Authentication
-- Register using **email and password**
-- Login for existing users
-- Secure authentication using **Firebase Authentication**
-- Persistent login session
-- Logout functionality
-
-### 📝 Task Management
-- Add tasks with:
-  - Title
-  - Description
-  - Priority (Low / Medium / High)
-  - Created date & time
-- View a list of all tasks
-- Mark tasks as **completed**
+- User can register and login (Firebase Auth)
+- Add tasks with title, description, and priority
+- Mark tasks as done
 - Delete tasks
-- Visual task status:
-  - Checkbox toggle
-  - Strikethrough for completed tasks
-  - “Completed” label for clarity
+- See all tasks in a list
 
-### 🎨 User Interface
-- Clean, modern dark-themed UI
-- Card-based task layout
-- Priority display
-- Floating action button for adding tasks
+## Tech Stack
 
----
-
-## 🛠️ Tech Stack
-
-- **React Native CLI**
-- **TypeScript**
-- **Firebase Authentication**
-- **React Navigation**
-- **Context API** (state management)
-- **Android Emulator**
-
----
-
-## 📂 Project Structure
-
-src/
-├── components/
-│ └── TaskItem.tsx
-├── context/
-│ ├── AuthContext.tsx
-│ └── TaskContext.tsx
-├── models/
-│ └── Task.ts
-├── navigation/
-│ ├── AuthNavigator.tsx
-│ └── AppNavigator.tsx
-├── screens/
-│ ├── HomeScreen.tsx
-│ ├── LoginScreen.tsx
-│ ├── RegisterScreen.tsx
-│ ├── TaskListScreen.tsx
-│ └── AddTaskScreen.tsx
-└── utils/
-
-
----
-
-## 🔄 Application Flow
-
-1. **Home Screen**
-   - Introduction to the app
-   - Register / Login options
-
-2. **Authentication**
-   - User registers or logs in
-   - Firebase validates credentials
-
-3. **Task Dashboard**
-   - View all tasks
-   - Add new tasks
-   - Mark tasks as completed
-   - Delete tasks
-   - Logout
-
----
-
-## 🧠 State Management
-
-- **AuthContext**
-  - Manages user authentication state
-  - Listens to Firebase auth changes
-
-- **TaskContext**
-  - Stores all tasks globally
-  - Handles add, toggle (complete), and delete operations
-
----
-
-## 📋 Assignment Requirements Mapping
-
-| Requirement | Status |
-|---|---|
-| React Native CLI | ✅ |
-| TypeScript | ✅ |
-| User Registration | ✅ |
-| User Login | ✅ |
-| Add Tasks | ✅ |
-| View Task List | ✅ |
-| Mark Tasks as Completed | ✅ |
-| Delete Tasks | ✅ |
-| State Management | ✅ |
-| Clean UI | ✅ |
-
----
-
-## 🧪 How to Run the Project
-
-### Prerequisites
-- Node.js (LTS)
-- Android Studio
 - React Native CLI
-- Firebase Project (Email/Password enabled)
+- TypeScript
+- Firebase Authentication
+- React Navigation
+- Context API for state management
 
-### Steps
+## Project Structure
+```
+src/
+├── components/      # Reusable components
+├── context/         # Auth & Task contexts
+├── models/          # TypeScript interfaces
+├── navigation/      # Navigation setup
+├── screens/         # All app screens
+└── utils/           # Helper functions
+```
 
+## Setup & Run
 ```bash
 npm install
 npx react-native run-android
+```
 
-🔒 Firebase Configuration
+Make sure you have:
+- Android Studio installed
+- Android emulator running or device connected
+- Firebase project set up with Email/Password auth enabled
 
-Firebase Authentication enabled (Email/Password)
+## Features Implemented
 
-google-services.json added for Android
+✅ User authentication (register/login/logout)  
+✅ Add tasks with priority levels  
+✅ Mark tasks as completed  
+✅ Delete tasks  
+✅ Clean dark-themed UI  
+✅ TypeScript for type safety  
+✅ Context API for state management  
 
-Authentication handled using @react-native-firebase/auth
+## What I Learned
 
-💡 Future Enhancements
+- Setting up React Native CLI project
+- Firebase authentication flow
+- React Navigation
+- TypeScript with React Native
+- Context API for global state
+- Styling React Native components
 
-Task sorting by priority & deadline
 
-Date & time picker for deadlines
+## Future Improvements
 
-Task categories/tags
 
-Backend integration with Node.js & MongoDB
+- Build custom backend with Node.js + MongoDB
+- Add notifications for deadlines
 
-Cloud sync for tasks
+---
+
+Built by Varshini for Modulus Seventeen Assignment
