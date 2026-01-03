@@ -1,71 +1,104 @@
-# Todo List App - React Native Assignment
+# Todo List App
 
-A Todo list mobile app built with React Native CLI and TypeScript for Modulus Seventeen assignment.
+React Native mobile app for managing tasks. Built for Modulus Seventeen assignment.
 
-## What It Does
+## What it does
 
-- User can register and login (Firebase Auth)
-- Add tasks with title, description, and priority
-- Mark tasks as done
-- Delete tasks
-- See all tasks in a list
+Basic todo app with user accounts. You can sign up, log in, and manage your tasks.
 
-## Tech Stack
+**Main features:**
+- Sign up / login with email & password (Firebase)
+- Add tasks with title, description, deadline, and priority
+- Mark tasks done
+- Delete tasks  
+- Sort tasks by priority and deadline
+- Filter tasks by status and priority
+- Dark theme UI
+
+## Tech used
 
 - React Native CLI
 - TypeScript
 - Firebase Authentication
 - React Navigation
-- Context API for state management
+- Context API for state
+- React Native DateTimePicker
 
-## Project Structure
-```
-src/
-├── components/      # Reusable components
-├── context/         # Auth & Task contexts
-├── models/          # TypeScript interfaces
-├── navigation/      # Navigation setup
-├── screens/         # All app screens
-└── utils/           # Helper functions
-```
+## Setup
 
-## Setup & Run
+Need to have installed:
+- Node.js
+- Android Studio
+- React Native CLI setup
+- Firebase project with email/password auth enabled
+
+Run it:
 ```bash
 npm install
 npx react-native run-android
 ```
 
-Make sure you have:
-- Android Studio installed
-- Android emulator running or device connected
-- Firebase project set up with Email/Password auth enabled
+## Project structure
+```
+src/
+├── components/     # Task cards and UI stuff
+├── context/        # Auth and task state management
+├── models/         # TypeScript types
+├── navigation/     # Screen navigation
+├── screens/        # All the app screens
+└── utils/          # Helper functions
+```
 
-## Features Implemented
+## Features breakdown
 
-✅ User authentication (register/login/logout)  
-✅ Add tasks with priority levels  
-✅ Mark tasks as completed  
-✅ Delete tasks  
-✅ Clean dark-themed UI  
-✅ TypeScript for type safety  
-✅ Context API for state management  
+**Authentication:**
+- Register new account
+- Login existing users
+- Stay logged in between sessions
+- Logout
 
-## What I Learned
+**Task management:**
+- Create tasks with:
+  - Title
+  - Description  
+  - Deadline (date + time picker)
+  - Priority (Low/Medium/High)
+- Toggle tasks as complete
+- Delete tasks
+- See all your tasks
 
-- Setting up React Native CLI project
-- Firebase authentication flow
-- React Navigation
+**Sorting & Filtering:**
+- Smart sort: incomplete tasks first, then by priority, then by deadline
+- Filter by: All, Active, Completed
+- Filter by priority level
+
+## What I learned building this
+
+- Setting up React Native CLI (had some version issues but figured it out)
+- Working with Firebase for the first time
 - TypeScript with React Native
-- Context API for global state
-- Styling React Native components
+- Using Context API properly
+- React Navigation between screens
+- Date/time pickers in mobile
+- Sorting algorithms with multiple criteria
 
+## Known issues
 
-## Future Improvements
+- UI could be more polished
+- No backend API yet (just using Firebase)
+- Task categories/tags not implemented
+- No push notifications for deadlines
 
+## If I had more time
 
-- Build custom backend with Node.js + MongoDB
-- Add notifications for deadlines
+- Build a proper backend with Node.js and MongoDB
+- Add task categories
+- Notifications when deadlines approach
+- Drag and drop to reorder
+- Dark/light theme toggle
+- Better animations
 
 ---
 
-Built by Varshini for Modulus Seventeen Assignment
+Built by Varshini  
+Assignment for Modulus Seventeen
