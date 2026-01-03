@@ -22,7 +22,8 @@ const RegisterScreen = ({ navigation }: any) => {
     try {
       await auth().createUserWithEmailAndPassword(email, password);
       Alert.alert('Success', 'Account created successfully');
-      navigation.replace('Login');
+      navigation.navigate('Login');
+
     } catch (error: any) {
       Alert.alert('Registration Failed', error.message);
     }
